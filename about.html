@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Website || About Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/custom.css" rel="stylesheet">
+
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <script src="js/respond.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                <div class="collapse navbar-collapse" id="collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="about.html">About</a></li>
+                        <li><a href="#">Store</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- row 1: navigation -->
+
+
+
+        <!-- row 2: header -->
+        <header class="row">
+            <div class="col-lg-6 col-sm-5">
+                <a href="index.html"><img src="img/logo.png" class="img-responsive bblogo"></a>
+            </div>
+            <div class="col-lg-6 col-sm-7">
+                <img src="img/banner.jpg" class="img-responsive bannerad">
+            </div>
+        </header>
+
+
+        <!-- row 3: about page content -->
+
+        <h1>ROHIT SHARMA</h1>
+        <p> <img src="img/jumbstron.png" class="img-responsive img-thumbnail pull-right" style="margin-left: 20px;"> Rohit Gurunath Sharma is an Indian cricketer. He is a right-handed batsman and an occasional right-arm off break bowler who plays for Mumbai in domestic cricket. He is the captain of Mumbai Indians in the Indian Premier League. In November 2017, when Virat Kohli was rested for the limited overs series against Sri Lanka, Rohit was named the skipper of the Indian team. </p> <br />
+
+        <div class="table-responsive">
+            <table class="table  table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>Matches</th>
+                        <th>Innings </th>
+                        <th>Runs</th>
+                        <th>Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>T20</td>
+                        <td>68</td>
+                        <td>1485</td>
+                        <td>30.30</td>
+                    </tr>
+                    <tr>
+                        <td>ODI</td>
+                        <td>172</td>
+                        <td>6209</td>
+                        <td>44.03</td>
+                    </tr>
+                    <tr>
+                        <td>Tests</td>
+                        <td>23</td>
+                        <td>1401</td>
+                        <td>42.45</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><br />
+
+
+        <!-- list navigation for tabs -->
+        <ul class="nav nav-tabs">
+            <li>
+                <a href="#matches" data-toggle="tab">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>Matches</a>
+            </li>
+            <li>
+                <a href="#records" data-toggle="tab">
+                    <span class="glyphicon glyphicon-list-alt"></span>Records</a>
+            </li>
+            <li>
+                <a href="#stadiums" data-toggle="tab">
+                    <span class="glyphicon glyphicon-picture"></span>Stadiums</a>
+            </li>
+            <li>
+                <a href="#reviews" data-toggle="tab">
+                    <span class="glyphicon glyphicon-user"></span>Reviews</a>
+            </li>
+        </ul>
+
+
+        <!-- Tab content -->
+        <div class="tab-content">
+
+            <!-- Matches -->
+            <div class="tab-pane fade in active" id="matches">
+                <p>
+                    <a href="img/tab-img1_LG.jpg"><img src="img/tab-img1.jpg" data-toogle="light-box" class="pull-left"></a>The Indian cricket team made its Test cricket debut in 1932 and has since advanced to be among the top four test teams in the ICC rankings in each of 2005 to 2008. The team won the ODI Cricket World Cup in 1983 and 2011.</p>
+                <p><a href="#" class="btn btn-success btn-sm">Read more >></a></p>
+            </div>
+
+            <!-- Records -->
+            <div class="tab-pane fade" id="records">
+                <p>
+                    <a href="img/tab-img2_LG.jpg"><img src="img/tab-img2.jpg" data-toogle="light-box" class="pull-left"></a>The highest ever partnership for India was the 413 run first-wicket partnership between Vinoo Mankad & Pankaj Roy v New Zealand at Chennai on 6 January 1956. </p>
+                <p><a href="#" class="btn btn-success btn-sm">Read more >></a></p>
+            </div>
+
+            <!-- Stadiums -->
+            <div class="tab-pane fade" id="stadiums">
+                <p>
+                    <a href="img/tab-img3_LG.jpg"><img src="img/tab-img3.jpg" data-toogle="light-box" class="pull-left"></a>The following are the famous stadiums in india, dharamshala stadium, eden gardens in kolkata, wankhede stadium in mumbai, PCA stadium in punjab,bombay stadium in mumbai and many more. </p>
+                <p><a href="#" class="btn btn-success btn-sm">Read more >></a></p>
+            </div>
+
+            <!-- Reviews -->
+            <div class="tab-pane fade" id="reviews">
+                <p>
+                    <a href="img/tab-img4_LG.jpg"><img src="img/tab-img4.jpg" data-toogle="light-box" class="pull-left"></a>Superb team, all good players, n today we got another good player for middle order against spinners, Hardik.Overall there are all good reviews about indian cricket. </p>
+                <p><a href="#" class="btn btn-success btn-sm">Read more >></a></p>
+            </div>
+
+        </div>
+        <!-- end tab content -->
+
+
+
+        <!-- end row 3 -->
+
+        <!-- row 4 -->
+        <footer class="row">
+            <p>
+                <small>
+            This is not a real website -- it was built for education purposes only.	            </small>
+                <br />
+                <small>Privacy Policy | Terms of Use</small>
+            </p>
+        </footer>
+
+    </div>
+    <!-- end container -->
+
+    <!-- javascript -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- linking JavaScript file necessary for lightbox in tabs -->
+    <script src="js/ekko-lightbox.js"></script>
+
+    <!-- Embedded JavaScript for successful lightbox operation -->
+    <script type="text/javascript">
+        $(document).ready(function($) {
+            $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+                event.preventDefault();
+                return $(this).ekkoLightbox();
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
